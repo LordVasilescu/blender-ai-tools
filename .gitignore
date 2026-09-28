@@ -1,0 +1,49 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets*.json
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+
+# Model weights / caches
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.bin
+*.gguf
+hf_cache/
+.cache/
+
+# Logs / runtime output
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Bridge runtime folders and assets
+**/inbox/
+**/outbox/
+**/status.json
+*.blend
+*.blend1
+*.glb
+*.fbx
+*.mp4
+*.png
